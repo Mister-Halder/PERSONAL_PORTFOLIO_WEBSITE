@@ -20,7 +20,7 @@ window.addEventListener("scroll", () => {
 });
 
 // ===== CHANGING ROLE TEXT ANIMATION =====
-const roles = ["Web Developer", "Engineering In Progress"];
+const roles = ["Web Developer", "Tech Enthusiast"];
 const changingText = document.querySelector(".changing-text");
 
 let roleIndex = 0;
