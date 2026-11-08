@@ -1060,3 +1060,24 @@ footer {
         font-size: 0.8rem;
     }
 }
+
+/* ===== MOBILE SOCIAL ICONS ALIGNMENT ===== */
+@media (max-width: 768px) {
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .socials a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+}
